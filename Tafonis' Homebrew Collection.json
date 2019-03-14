@@ -1,0 +1,120 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "th",
+				"abbreviation": "TH",
+				"full": "Tafonis' Homebrew",
+				"authors": [
+					"/u/Tafonis"
+				],
+				"version": "1.0.0",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1539558000
+	},
+	"monster": [
+		{
+			"name": "Cecile",
+			"size": "M",
+			"type": "humanoid",
+			"source": "th",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "4d8+6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 13,
+			"con": 10,
+			"int": 12,
+			"wis": 11,
+			"cha": 15,
+            "passive": 12,
+            "languages": "Common",
+			"cr": "1",
+            "senses": "",
+            "spellcasting": [
+                {
+                    "name": "Spellcasting",
+					"headerEntries": [
+						"Cecile is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following sorcerer spells prepared:"
+                    ],
+                    "spells": {
+						"0": {
+							"spells": [
+								"{@spell chill touch}",
+								"{@spell message}",
+								"{@spell mage hand}",
+								"{@spell burning hands}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell shield}",
+								"{@spell ice knife|xge}"
+							]
+						},
+						"2": {
+							"slots": 2,
+							"spells": [
+								"{@spell phantasmal force}",
+								"{@spell invisibility}"
+							]
+						}
+					},
+					"ability": "cha"
+                }
+            ],
+			"trait": [
+				{
+					"name": "Sorcery Points",
+					"entries": [
+                        "Cecile has 3 sorcery points. It regains all its spent sorcery points when it finishes a long rest. She can spend its sorcery points on the following options:",
+                        "Twinned Spell: When she casts a spell that targets a single enemy, she can spend 1 sorcery point and target one additional creature in range.",
+                        "Subtle Spell: When she casts a spell, it can spend 1 sorcery point to cast the spell without any somatic or verbal components."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Broom",
+					"entries": [
+						"{@atk mw} {@hit -1} to hit, reach 5 ft., one target. Hit 3 ({@damage 1d6 - 1}) bludgeoning damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Also known as Fire-Pike Wyverns, Agnaktor has developed the remarkable ability to swim through lava, meaning it can both sneak up on prey and escape from a more powerful enemy. It has a very strong beak, which it uses to burrow straight through hard volcanic rock at incredible speeds. While swimming it swallows some of the lava and stores it in its body so that it can produce its powerful lava beam. Produced between Agnaktor's scales is a non-flammable substance that never burns. This substance allows Aganktor to coat its hide with lava and swim in lava. The molten rock on its body will eventually harden into a thick armor of rock, but when the Agnaktor touches lava, its coating becomes soft again.",
+							"Despite Agnaktor being powerful predators, they are known to leave their habitat when a powerful monster appears or during a volcanic eruption. During the Breeding Season, both males and females will swim to the summit of an active volcano to mate, this is also where most Agnaktor learn the dig through the ceiling technique. The female will then make a nest somewhere near the top and then give live birth to 2-30 individuals at a time."
+						]
+					}
+				]
+			},
+			"damageTags": [
+                "B",
+				"C",
+				"F"
+			]
+		}
+	]
+}
