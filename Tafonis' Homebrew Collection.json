@@ -1,0 +1,40 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "th",
+				"abbreviation": "TH",
+				"full": "Tafonis' Homebrew",
+				"authors": [
+					"/u/Tafonis"
+				],
+				"version": "1.0.0",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1539558000
+	},
+	"item": [
+		{
+			"name": "Ryuunochie",
+			"type": "M",
+			"tier": "Major",
+			"weaponCategory": "Martial",
+			"weight": 2.6,
+			"dmg1": "{@dice 1d8}",
+			"dmg2": "{@dice 1d10}",
+			"dmgType": "S",
+			"property": [
+				"V",
+				"F"
+			],
+			"rarity": "Legendary",
+			"source": "th",
+			"entries": [
+				"Forged by Earendar, the great ancient bronze dragon from Shouhai, using the blade of the Jupongatana clan, the handle of the Genji Seiwa clan and the scabbard of the Akamura clan.",
+				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage.",
+				"While wielding this sword, you can use your action to sheathe the sword and begin focusing your energies. While focusing your speed is reduced to 0, you gain a reach of 15ft and you need to take the rest of your turn concentrating on it. If any enemy enters or tries to leave your reach while on this state, you can use your reaction unleash a quick and powerful attack against it. You gain advantage on this attack. If you roll a 20 on the attack roll and the creature has at least one head, you cut off one of the creature's head. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn't have or need a head, has legendary actions, or the DM decides that the creature is too big for its head to be cut off with this weapon. Such a creature instead takes an extra 6d8 slashing damage from the hit."
+			]
+		}
+	]
+}
