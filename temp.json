@@ -1,0 +1,25 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"item"
+		]
+	},
+	"item": [
+		{
+			"name": "Forgeheart",
+			"type": "M",
+			"rarity": "Uncommon",
+			"weight": 4,
+			"dmg1": "{@dice 1d6}",
+			"dmgType": "B",
+			"source": "LMoP",
+			"page": 48,
+			"weaponCategory": "Simple",
+			"baseItem": "mace|phb",
+			"entries": [
+				"This +1 mace was made for a cleric from the Hammers of Moradin. Infused by the essence of the elemental that powers the Forge of the Winds, the head of the mace blazes with glowing hot steel. This glow is as bright as a torch for 30 minutes when its wielder commands, spending one charge. While glowing, the mace deals an extra 1d6 fire damage. The mace haves 3 charges and regains 1 charge at dawn."
+			],
+			"bonus": "+1"
+		}
+	]
+}
